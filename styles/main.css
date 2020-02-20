@@ -1,0 +1,40 @@
+header {
+  background: url(../images/hero-image.jpg) center / cover;
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+body{
+  background-color: #F3EA97;
+  font-size: 1.5rem;
+}
+h1{
+  font-size: 4rem;
+  text-align: center;
+  color: #515B97;
+  margin: auto;
+  line-height: 400px;
+  height: 400px;
+}
+
+form{
+  text-align: center;
+}
+label{
+  padding-top: 200px;
+  font-weight: thin;
+  font-size: 2rem;
+  color: #000000;
+}
+
+#newToDoText{
+  font-size: 1.5rem;
+
+}
+
+
+button{
+  font-size: 1.25rem;
+  background-color: #97A4F3;
+}
