@@ -14,15 +14,12 @@ h1{
   text-align: center;
   color: #515B97;
   margin: auto;
-  line-height: 400px;
-  height: 400px;
 }
 
 form{
   text-align: center;
 }
 label{
-  padding-top: 200px;
   font-weight: thin;
   font-size: 2rem;
   color: #000000;
