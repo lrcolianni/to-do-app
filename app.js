@@ -1,16 +1,18 @@
 function onReady(){
-  const addToDoForm = document.getElementById('toDoList');
+  const addToDoForm = document.getElementById('addToDoForm');
   const newToDoText = document.getElementById('newToDoText');
   const toDoList = document.getElementById('toDoList');
 
 
   addToDoForm.addEventListener('submit', (event) => {
     event.preventDefault();
+
     // get the text
-    let title = newToDotext.value;
+    let title = newToDoText.value;
 
     //create a new li
     let newLi = document.createElement('li');
+    newLi.classList.add("mdl-list__item");
 
     // create a new input
     let checkbox = document.createElement('input');
